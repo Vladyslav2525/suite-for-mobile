@@ -1,8 +1,39 @@
-GitHub Pages URL: https://vladyslav2525.github.io/suite-for-mobile/
-Password: CCsuite-210626!
+САЙТ:
+https://vladyslav2525.github.io/suite-for-mobile/
 
-Timer update from PC:
-1. Open this folder on the PC.
-2. Run update-timer.cmd or update-timer.ps1.
-3. Wait for the push to finish.
-4. Open the site on the phone and the updated timer will be shown.
+ПАРОЛЬ ДЛЯ ВХОДА:
+CCsuite-210626!
+
+ЧТО ГДЕ ЛЕЖИТ:
+- Основной сайт: D:\CryptoCoin\Suite_for_mobile\indexcryptocoin.html
+- Файл входа для GitHub Pages: D:\CryptoCoin\Suite_for_mobile\index.html
+- Общее состояние таймера: D:\CryptoCoin\Suite_for_mobile\timer-state.json
+- Быстрый запуск обновления таймера: D:\CryptoCoin\Suite_for_mobile\update-timer.cmd
+- Скрипт обновления таймера: D:\CryptoCoin\Suite_for_mobile\update-timer.ps1
+
+КАК ОБНОВИТЬ ТАЙМЕР С ПК:
+1. Открой папку D:\CryptoCoin\Suite_for_mobile на компьютере.
+2. Запусти файл update-timer.cmd двойным кликом.
+3. Дождись, пока окно покажет, что timer published to GitHub Pages.
+4. После этого открой сайт на телефоне или обнови страницу.
+5. Сайт сам подтянет новый timer-state.json, и таймер покажет новое время.
+
+ЕСЛИ НУЖНО ЗАПУСТИТЬ ЧЕРЕЗ POWERSHELL ВРУЧНУЮ:
+powershell -ExecutionPolicy Bypass -File "D:\CryptoCoin\Suite_for_mobile\update-timer.ps1"
+
+ЕСЛИ НУЖНО ДОБАВИТЬ СВОЮ ПОДПИСЬ К ОБНОВЛЕНИЮ:
+powershell -ExecutionPolicy Bypass -File "D:\CryptoCoin\Suite_for_mobile\update-timer.ps1" -Note "Любая своя заметка"
+
+КАК ЭТО РАБОТАЕТ:
+- update-timer.ps1 записывает новое время старта в timer-state.json
+- потом автоматически делает commit и push в GitHub
+- GitHub Pages обновляет опубликованный файл
+- телефон при открытии сайта показывает уже обновлённый таймер
+
+ЕСЛИ ОБНОВЛЕНИЕ НЕ ВИДНО СРАЗУ:
+1. Подожди 20-60 секунд.
+2. Обнови страницу на телефоне.
+3. При необходимости закрой сайт и открой снова.
+
+ПРИМЕЧАНИЕ:
+Пароль на сайте сделан для входа через клиентскую сторону, потому что GitHub Pages работает как статический хостинг без серверной авторизации.
