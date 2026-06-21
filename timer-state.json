@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "startedAt": 1782026827160,
-  "startedAtIso": "2026-06-21T07:27:07.160Z",
-  "updatedAt": 1782026827160,
-  "updatedAtIso": "2026-06-21T07:27:07.160Z",
+  "startedAt": 1782026877803,
+  "startedAtIso": "2026-06-21T07:27:57.803Z",
+  "updatedAt": 1782026877803,
+  "updatedAtIso": "2026-06-21T07:27:57.803Z",
   "updatedBy": "Vlado",
-  "note": "Timer reset from PC"
+  "note": "Initial synchronized timer publish from PC"
 }
