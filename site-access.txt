@@ -1,0 +1,8 @@
+GitHub Pages URL: TO_BE_FILLED
+Password: CCsuite-210626!
+
+Timer update from PC:
+1. Open this folder on the PC.
+2. Run update-timer.cmd or update-timer.ps1.
+3. Wait for the push to finish.
+4. Open the site on the phone and the updated timer will be shown.
