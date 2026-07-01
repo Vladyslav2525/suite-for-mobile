@@ -5,7 +5,7 @@ https://vladyslav2525.github.io/suite-for-mobile/
 CCsuite-210626!
 
 ЧТО ГДЕ ЛЕЖИТ:
-- Основной сайт: D:\CryptoCoin\Suite_for_mobile\indexcryptocoin.html
+- Основной сайт: D:\CryptoCoin\Suite_for_mobile\index-aureumlink.html
 - Файл входа для GitHub Pages: D:\CryptoCoin\Suite_for_mobile\index.html
 - Общее состояние таймера: D:\CryptoCoin\Suite_for_mobile\timer-state.json
 - Быстрый запуск обновления таймера: D:\CryptoCoin\Suite_for_mobile\update-timer.cmd

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Universal Responsive Stream Terminal - Production Gold</title>
+    <title>AUREUM LINK | Live Reserve Stream</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
@@ -269,7 +269,7 @@
 
     <div class="status-bar">
         <div class="network-info">
-            <span>$MYTOKEN INDEX</span>
+            <span>$AURL INDEX</span>
             <span id="gas-value">GAS: -- GWEI</span>
             <span id="block-value">BLK: #--------</span>
         </div>
@@ -304,8 +304,8 @@
                 <div class="progress-bar-fill supply-color" id="supply-fill" style="width: 86.27%;"></div>
             </div>
             <div class="bar-bounds">
-                <span>0 $TOKEN</span>
-                <span>1,000,000,000 $TOKEN</span>
+                <span>0 $AURL</span>
+                <span>1,000,000,000 $AURL</span>
             </div>
         </div>
     </div>
@@ -347,7 +347,7 @@
 
     <script>
         const ACCESS_PASSWORD_HASH = '18e95ef54c47f558a93983ba8b975ed7dbacf3772cf9a76e4813bfd46b4c84e9';
-        const ACCESS_STORAGE_KEY = 'cryptocoin_suite_access_v1';
+        const ACCESS_STORAGE_KEY = 'aureum_link_access_v1';
         const TIMER_STATE_URL = 'timer-state.json';
 
         function readNumberFromStorage(key, fallbackValue) {
@@ -544,7 +544,7 @@
         }
 
         function addLogLine(amount) {
-            appendLogLine(`<span>📥 BUY: +${amount.toLocaleString()} $MYTOKEN</span><span>just now</span>`, true);
+            appendLogLine(`<span>📥 BUY: +${amount.toLocaleString()} $AURL</span><span>just now</span>`, true);
         }
 
         function addSystemLogLine(message) {
