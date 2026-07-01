@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>AUREUM LINK | Live Reserve Stream</title>
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
@@ -130,6 +132,9 @@
             text-transform: uppercase;
         }
         .network-info span { margin-right: 12px; }
+        .network-info { display: flex; align-items: center; }
+        .brand-logo { width: 18px; height: 18px; margin-right: 8px; vertical-align: middle; }
+        .access-logo { width: 56px; height: 56px; margin: 0 auto 12px; display: block; }
         .live-marker { display: flex; align-items: center; color: #00FF66; }
         .blink-dot {
             width: 6px; height: 6px; background-color: #00FF66;
@@ -259,6 +264,7 @@
 
 <div class="access-gate" id="access-gate">
     <div class="access-panel">
+        <img src="logo.svg" alt="AUREUM LINK logo" class="access-logo">
         <div class="access-title">Protected Stream Access</div>
         <div class="access-subtitle">Введите пароль для входа в терминал</div>
         <input id="password-input" class="access-input" type="password" placeholder="Пароль доступа" autocomplete="current-password">
@@ -269,6 +275,7 @@
 
     <div class="status-bar">
         <div class="network-info">
+            <img src="logo.svg" alt="AUREUM LINK" class="brand-logo">
             <span>$AURL INDEX</span>
             <span id="gas-value">GAS: -- GWEI</span>
             <span id="block-value">BLK: #--------</span>
